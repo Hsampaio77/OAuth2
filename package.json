@@ -1,0 +1,31 @@
+{
+  "name": "googleapis-samples",
+  "description": "The following samples show basic usage of various APIs.",
+  "repository": "google/google-api-nodejs-client",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "nodemon oauth2server.js"
+  },
+  "dependencies": {
+    "@googleapis/people": "^0.3.0",
+    "base64url": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "googleapis": "^73.0.0",
+    "minimist": "^1.2.5",
+    "nconf": "^0.10.0",
+    "open": "^6.3.0",
+    "passport-google-oauth2": "^0.2.0",
+    "server-destroy": "^1.0.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3"
+  }
+}
